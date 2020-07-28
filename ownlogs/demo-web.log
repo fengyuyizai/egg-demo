@@ -1,0 +1,120 @@
+2020-07-28 15:08:30,924 INFO 25830 [-/127.0.0.1/-/27ms POST /get_activity_info] some request data req : {"uid":"123444"}
+2020-07-28 15:08:30,924 INFO 25830 [-/127.0.0.1/-/27ms POST /get_activity_info] some request data res : {"uid":"123444","name":"张三"}
+2020-07-28 16:07:11,480 INFO 26636 [-/127.0.0.1/-/19ms POST /get_activity_info] some request data req : {"uid":"123444"}
+2020-07-28 16:07:11,480 INFO 26636 [-/127.0.0.1/-/20ms POST /get_activity_info] some request data res : {"uid":"123444","name":"张三"}
+2020-07-28 16:07:44,065 INFO 26681 [-/127.0.0.1/-/45ms POST /get_activity_info] some request data req : {"uid":"123444"}
+2020-07-28 16:07:44,065 INFO 26681 [-/127.0.0.1/-/45ms POST /get_activity_info] some request data res : {"uid":"123444","name":"张三"}
+2020-07-28 16:08:03,743 INFO 26681 [-/127.0.0.1/-/3ms POST /get_activity_info] some request data req : {"uid":"123444"}
+2020-07-28 16:08:03,743 INFO 26681 [-/127.0.0.1/-/3ms POST /get_activity_info] some request data res : {"uid":"123444","name":"张三"}
+2020-07-28 17:30:09,463 ERROR 28925 [-/127.0.0.1/-/21ms POST /get_activity_info] nodejs.TypeError: Cannot read property 'logger' of undefined
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:22)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 28925
+hostname: XYBJM-10000053.local
+
+2020-07-28 17:30:40,477 ERROR 28999 [-/127.0.0.1/-/24ms POST /get_activity_info] nodejs.Error: {}
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 28999
+hostname: XYBJM-10000053.local
+
+2020-07-28 17:33:02,447 ERROR 29066 [-/127.0.0.1/-/35ms POST /get_activity_info] nodejs.Error: {}
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:10:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 29066
+hostname: XYBJM-10000053.local
+
+2020-07-28 17:33:30,274 ERROR 29099 [-/127.0.0.1/-/23ms POST /get_activity_info] nodejs.Error: TypeError: this.app.redis.set is not a function
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:10:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 29099
+hostname: XYBJM-10000053.local
+
+2020-07-28 17:51:08,983 ERROR 29413 [-/127.0.0.1/-/19ms POST /get_activity_info] nodejs.Error: TypeError: this.app.redis.set is not a function
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 29413
+hostname: XYBJM-10000053.local
+
+2020-07-28 17:52:04,768 ERROR 29489 [-/127.0.0.1/-/18ms POST /get_activity_info] nodejs.Error: TypeError: this.app.redis.set is not a function
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 29489
+hostname: XYBJM-10000053.local
+
+2020-07-28 17:52:05,607 ERROR 29489 [-/127.0.0.1/-/1ms POST /get_activity_info] nodejs.Error: TypeError: this.app.redis.set is not a function
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 29489
+hostname: XYBJM-10000053.local
+
+2020-07-28 17:52:05,810 ERROR 29489 [-/127.0.0.1/-/1ms POST /get_activity_info] nodejs.Error: TypeError: this.app.redis.set is not a function
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 29489
+hostname: XYBJM-10000053.local
+
+2020-07-28 17:59:30,369 ERROR 29640 [-/127.0.0.1/-/18ms POST /get_activity_info] nodejs.Error: TypeError: this.app.redis.set is not a function
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 29640
+hostname: XYBJM-10000053.local
+
+2020-07-28 18:07:19,272 ERROR 29785 [-/127.0.0.1/-/19ms POST /get_activity_info] nodejs.Error: TypeError: this.app.redis.set is not a function
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 29785
+hostname: XYBJM-10000053.local
+
+2020-07-28 18:23:39,228 ERROR 30086 [-/127.0.0.1/-/26ms POST /get_activity_info] nodejs.Error: TypeError: app.redis.set is not a function
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 30086
+hostname: XYBJM-10000053.local
+
+2020-07-28 18:25:28,658 ERROR 30159 [-/127.0.0.1/-/21ms POST /get_activity_info] nodejs.Error: TypeError: app.redis.set is not a function
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 30159
+hostname: XYBJM-10000053.local
+
+2020-07-28 18:25:29,402 ERROR 30159 [-/127.0.0.1/-/0ms POST /get_activity_info] nodejs.Error: TypeError: app.redis.set is not a function
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 30159
+hostname: XYBJM-10000053.local
+
+2020-07-28 18:26:13,726 ERROR 30159 [-/127.0.0.1/-/1ms POST /get_activity_info] nodejs.Error: TypeError: app.redis.set is not a function
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 30159
+hostname: XYBJM-10000053.local
+
+2020-07-28 18:26:14,304 ERROR 30159 [-/127.0.0.1/-/1ms POST /get_activity_info] nodejs.Error: TypeError: app.redis.set is not a function
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 30159
+hostname: XYBJM-10000053.local
+
+2020-07-28 18:28:22,928 ERROR 30219 [-/127.0.0.1/-/22ms POST /get_activity_info] nodejs.Error: TypeError: app.redis.set is not a function
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 30219
+hostname: XYBJM-10000053.local
+

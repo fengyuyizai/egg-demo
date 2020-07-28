@@ -7,7 +7,6 @@ class Activity extends Controller {
         const { ctx } = this
         const { uid } = ctx.request.body;
 
-
         ctx.validate({
             uid: {type: 'string', require: true, desc: '用户id'}
         })

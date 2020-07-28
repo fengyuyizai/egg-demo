@@ -13,6 +13,16 @@ module.exports = appInfo => {
   const config = exports = {
     logger: {
       dir: `${appInfo.root}/ownlogs`,
+    },
+    redis: {
+      clinet: {
+        sentinels: [{
+          port: 6379,
+          host: '127.0.0.1',
+        }],
+        password: null,
+        db: 0,
+      }
     }
   };
 

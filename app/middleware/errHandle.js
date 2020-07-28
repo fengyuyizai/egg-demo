@@ -6,6 +6,7 @@ module.exports = option => {
             await next()
             
         } catch(err) {
+            ctx.logger.error(new Error(err))
             const status = err.status || 500
 
             switch (status) {
