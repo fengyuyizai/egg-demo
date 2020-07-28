@@ -12,7 +12,7 @@ module.exports = appInfo => {
    **/
   const config = exports = {
     logger: {
-      dir: '/ownlogs',
+      dir: `${appInfo.root}/ownlogs`,
     }
   };
 
