@@ -23,6 +23,10 @@ module.exports = appInfo => {
         password: null,
         db: 0,
       }
+    },
+    mongoose: {
+      url: 'mongodb://localhost:27017/admin',
+      options: {}
     }
   };
 

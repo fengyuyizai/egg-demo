@@ -1,4 +1,10 @@
 'use strict';
-module.exports = {
 
+
+
+module.exports = {
+    initMongoID(param) {
+        const objectId = require('mongodb').ObjectID
+        return objectId()
+    }
 };

@@ -118,3 +118,319 @@ hostname: XYBJM-10000053.local
 pid: 30219
 hostname: XYBJM-10000053.local
 
+2020-07-30 11:57:49,163 ERROR 9934 [-/127.0.0.1/-/0ms GET /] nodejs.MongoParseError: [egg-mongoose]Invalid connection string
+    at parseConnectionString (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/core/uri_parser.js:547:21)
+    at connect (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/operations/connect.js:277:3)
+    at /Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/mongo_client.js:222:5
+    at maybePromise (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/utils.js:719:3)
+    at MongoClient.connect (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/mongo_client.js:218:10)
+    at /Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/connection.js:713:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/connection.js:710:19)
+    at Mongoose.createConnection (/Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/app.js:4:57)
+name: "MongoParseError"
+pid: 9934
+hostname: XYBJM-10000053.local
+
+2020-07-30 12:01:21,826 ERROR 10068 [-/127.0.0.1/-/0ms GET /] nodejs.MongoParseError: [egg-mongoose]Invalid connection string
+    at parseConnectionString (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/core/uri_parser.js:547:21)
+    at connect (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/operations/connect.js:277:3)
+    at /Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/mongo_client.js:222:5
+    at maybePromise (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/utils.js:719:3)
+    at MongoClient.connect (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/mongo_client.js:218:10)
+    at /Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/connection.js:713:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/connection.js:710:19)
+    at Mongoose.createConnection (/Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/app.js:4:57)
+name: "MongoParseError"
+pid: 10068
+hostname: XYBJM-10000053.local
+
+2020-07-30 14:05:08,255 ERROR 10497 [-/127.0.0.1/-/0ms GET /] nodejs.MongoParseError: [egg-mongoose]Invalid connection string
+    at parseConnectionString (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/core/uri_parser.js:547:21)
+    at connect (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/operations/connect.js:277:3)
+    at /Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/mongo_client.js:222:5
+    at maybePromise (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/utils.js:719:3)
+    at MongoClient.connect (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/mongo_client.js:218:10)
+    at /Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/connection.js:713:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/connection.js:710:19)
+    at Mongoose.createConnection (/Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/app.js:4:57)
+name: "MongoParseError"
+pid: 10497
+hostname: XYBJM-10000053.local
+
+2020-07-30 14:07:54,846 ERROR 10615 [-/127.0.0.1/-/1ms GET /] nodejs.MongoParseError: [egg-mongoose]Invalid connection string
+    at parseConnectionString (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/core/uri_parser.js:547:21)
+    at connect (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/operations/connect.js:277:3)
+    at /Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/mongo_client.js:222:5
+    at maybePromise (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/utils.js:719:3)
+    at MongoClient.connect (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/mongo_client.js:218:10)
+    at /Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/connection.js:713:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/connection.js:710:19)
+    at Mongoose.createConnection (/Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/app.js:4:57)
+name: "MongoParseError"
+pid: 10615
+hostname: XYBJM-10000053.local
+
+2020-07-30 14:12:52,357 ERROR 10744 [-/127.0.0.1/-/0ms GET /] nodejs.MongoParseError: [egg-mongoose]Invalid connection string
+    at parseConnectionString (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/core/uri_parser.js:547:21)
+    at connect (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/operations/connect.js:277:3)
+    at /Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/mongo_client.js:222:5
+    at maybePromise (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/utils.js:719:3)
+    at MongoClient.connect (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/mongo_client.js:218:10)
+    at /Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/connection.js:713:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/connection.js:710:19)
+    at Mongoose.createConnection (/Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/app.js:4:57)
+name: "MongoParseError"
+pid: 10744
+hostname: XYBJM-10000053.local
+
+2020-07-30 14:15:00,860 ERROR 10912 [-/127.0.0.1/-/0ms GET /] nodejs.MongoParseError: [egg-mongoose]Invalid connection string
+    at parseConnectionString (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/core/uri_parser.js:547:21)
+    at connect (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/operations/connect.js:277:3)
+    at /Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/mongo_client.js:222:5
+    at maybePromise (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/utils.js:719:3)
+    at MongoClient.connect (/Users/mengxu.lii/own/egg-demo/node_modules/mongodb/lib/mongo_client.js:218:10)
+    at /Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/connection.js:713:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/connection.js:710:19)
+    at Mongoose.createConnection (/Users/mengxu.lii/own/egg-demo/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/mengxu.lii/own/egg-demo/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/app.js:4:57)
+name: "MongoParseError"
+pid: 10912
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:07:42,034 ERROR 12480 [-/127.0.0.1/-/20ms POST /register] nodejs.Error: TypeError: Cannot read property 'create' of undefined
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 12480
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:08:29,297 ERROR 12530 [-/127.0.0.1/-/18ms POST /register] nodejs.Error: TypeError: Cannot read property 'create' of undefined
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 12530
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:09:29,522 ERROR 12598 [-/127.0.0.1/-/22ms POST /register] nodejs.Error: TypeError: Cannot read property 'create' of undefined
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 12598
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:09:50,983 ERROR 12632 [-/127.0.0.1/-/18ms POST /register] nodejs.Error: TypeError: Cannot read property 'create' of undefined
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 12632
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:10:33,912 ERROR 12672 [-/127.0.0.1/-/20ms POST /register] nodejs.Error: TypeError: Cannot read property 'create' of undefined
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 12672
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:11:01,920 ERROR 12703 [-/127.0.0.1/-/17ms POST /register] nodejs.Error: TypeError: Cannot read property 'create' of undefined
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 12703
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:11:10,821 ERROR 12703 [-/127.0.0.1/-/1ms POST /register] nodejs.Error: TypeError: Cannot read property 'create' of undefined
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 12703
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:11:25,404 ERROR 12754 [-/127.0.0.1/-/14ms POST /register] nodejs.Error: TypeError: Cannot read property 'create' of undefined
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 12754
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:12:07,583 ERROR 12803 [-/127.0.0.1/-/32ms POST /register] nodejs.Error: MongoError: E11000 duplicate key error collection: admin.users index: id_1 dup key: { id: null }
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 12803
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:12:39,853 ERROR 12836 [-/127.0.0.1/-/26ms POST /register] nodejs.Error: MongoError: E11000 duplicate key error collection: admin.users index: id_1 dup key: { id: null }
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 12836
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:13:12,973 ERROR 12886 [-/127.0.0.1/-/24ms POST /register] nodejs.Error: MongoError: E11000 duplicate key error collection: admin.users index: id_1 dup key: { id: null }
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 12886
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:18:02,263 ERROR 13018 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: ObjectId is not defined
+    at module.exports (/Users/mengxu.lii/own/egg-demo/app/model/mongo.js:7:20)
+    at getExports (/Users/mengxu.lii/own/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/mengxu.lii/own/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/mengxu.lii/own/egg-demo/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/mengxu.lii/own/egg-demo/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/mengxu.lii/own/egg-demo/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/mengxu.lii/own/egg-demo/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/mengxu.lii/own/egg-demo/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+
+pid: 13018
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:24:38,767 ERROR 13063 [-/127.0.0.1/-/17ms POST /register] nodejs.Error: TypeError: ctx.model.Mongo.ObjectId is not a function
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 13063
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:25:54,560 ERROR 13109 [-/127.0.0.1/-/37ms POST /register] nodejs.Error: MongoError: E11000 duplicate key error collection: admin.users index: id_1 dup key: { id: null }
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 13109
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:39:45,419 ERROR 13192 [-/127.0.0.1/-/16ms POST /register] nodejs.Error: TypeError: Cannot read property 'find' of undefined
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 13192
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:39:59,118 ERROR 13230 [-/127.0.0.1/-/84ms POST /register] nodejs.Error: MongoError: E11000 duplicate key error collection: admin.users index: id_1 dup key: { id: null }
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 13230
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:50:06,317 ERROR 13462 [-/127.0.0.1/-/31ms POST /register] nodejs.Error: MongoError: E11000 duplicate key error collection: admin.users index: id_1 dup key: { id: null }
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 13462
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:50:21,344 ERROR 13496 [-/127.0.0.1/-/34ms POST /register] nodejs.Error: MongoError: E11000 duplicate key error collection: admin.users index: id_1 dup key: { id: null }
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 13496
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:51:54,866 ERROR 13588 [-/127.0.0.1/-/41ms POST /register] nodejs.Error: ValidationError: id: Cast to Number failed for value "5f227c1ab8376035144d19a5" at path "id"
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 13588
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:52:26,610 ERROR 13624 [-/127.0.0.1/-/39ms POST /register] nodejs.Error: ValidationError: id: Cast to Number failed for value "5f227c3abede553538b5c766" at path "id"
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 13624
+hostname: XYBJM-10000053.local
+
+2020-07-30 15:52:30,543 ERROR 13624 [-/127.0.0.1/-/1ms POST /register] nodejs.Error: ValidationError: id: Cast to Number failed for value "5f227c3ebede553538b5c768" at path "id"
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 13624
+hostname: XYBJM-10000053.local
+
+2020-07-30 16:05:17,318 ERROR 13843 [-/127.0.0.1/-/21ms POST /register] nodejs.Error: ValidationError: id: Path `id` is required.
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 13843
+hostname: XYBJM-10000053.local
+
+2020-07-30 16:06:03,699 ERROR 13896 [-/127.0.0.1/-/26ms POST /register] nodejs.Error: MongoError: E11000 duplicate key error collection: admin.users index: id_1 dup key: { id: null }
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 13896
+hostname: XYBJM-10000053.local
+
+2020-07-30 16:12:01,373 ERROR 14045 [-/127.0.0.1/-/23ms POST /user/register] nodejs.Error: MongoError: E11000 duplicate key error collection: admin.users index: id_1 dup key: { id: null }
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 14045
+hostname: XYBJM-10000053.local
+
+2020-07-30 16:15:24,485 ERROR 14198 [-/127.0.0.1/-/8ms POST /user/register] nodejs.Error: MongoError: E11000 duplicate key error collection: admin.users index: id_1 dup key: { id: null }
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 14198
+hostname: XYBJM-10000053.local
+
+2020-07-30 16:42:09,102 ERROR 14645 [-/127.0.0.1/-/11ms POST /user/register] nodejs.Error: MongoError: E11000 duplicate key error collection: admin.users index: id_1 dup key: { id: null }
+    at status (/Users/mengxu.lii/own/egg-demo/app/middleware/errHandle.js:9:30)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 14645
+hostname: XYBJM-10000053.local
+

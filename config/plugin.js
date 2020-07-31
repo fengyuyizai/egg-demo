@@ -10,5 +10,9 @@ module.exports = {
   redis: {
     enable: true,
     package: 'egg-redis'
+  },
+  mongoose: {
+    enable: true,
+    package: 'egg-mongoose'
   }
 };
